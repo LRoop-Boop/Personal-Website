@@ -41,18 +41,14 @@ export default function HomePage() {
           </p>
         </div>
         <div className="flex flex-wrap gap-4 pt-6">
-            {/* Email */}
             <a
               href="mailto:rooplu@mail.gvsu.edu"
               className="group inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-slate-900 text-white hover:bg-slate-800 transition shadow-sm hover:shadow-md"
             >
               <Mail size={18} />
-
               <span>Email Me</span>
-
             </a>
 
-            {/* LinkedIn */}
             <a
               href="https://linkedin.com/in/lucy-roop/"
               target="_blank"
@@ -63,11 +59,9 @@ export default function HomePage() {
               size="18"
               className="text-slate-900"
             />
-
               <span>LinkedIn</span>
             </a>
 
-            {/* GitHub */}
             <a
               href="https://github.com/LRoop-Boop"
               target="_blank"
@@ -78,11 +72,9 @@ export default function HomePage() {
               size="18"
               className="text-slate-900"
             />
-
               <span>GitHub</span>
             </a>
 
-            {/* Resume */}
             <a
               href="/Lucy-Roop-Resume.pdf"
               target="_blank"
@@ -91,7 +83,6 @@ export default function HomePage() {
               className="group inline-flex items-center gap-2 px-5 py-3 rounded-2xl border border-slate-300 bg-white hover:border-slate-900 hover:-translate-y-0.5 transition shadow-sm hover:shadow-md"
             >
               <FileText size={18} />
-
               <span>Download Resume</span>
             </a>
 

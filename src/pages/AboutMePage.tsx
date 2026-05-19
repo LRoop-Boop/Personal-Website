@@ -3,7 +3,7 @@ import {
   ReactOriginal,
   TailwindcssOriginal,
   JavascriptOriginal,
-  MysqlOriginal,
+  SqldeveloperOriginal,
   COriginal,
   Html5Original,
   ReactnativeOriginal,
@@ -55,7 +55,7 @@ const primaryTools = [
 const experiencedWith = [
   {
     name: "SQL",
-    icon: MysqlOriginal,
+    icon: SqldeveloperOriginal,
     description:
       "I have taken a database course that covered SQL and NOSQL syntax, as well as common practices and methodologies like normalization and the relational model.",
   },
@@ -133,8 +133,6 @@ export default function AboutMe() {
     <div className="min-h-screen bg-slate-100 text-slate-900 px-6 py-16">
       <div className="max-w-4xl mx-auto flex flex-col gap-16">
 
-        {/* Header */}
-        {/* Header */}
         <div className="flex flex-col gap-2">
         <h1 className="text-4xl font-bold">
             About Me
@@ -145,7 +143,6 @@ export default function AboutMe() {
         </p>
         </div>
 
-        {/* Primary Tools */}
         <section className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
             <h2 className="text-3xl font-semibold">
@@ -169,7 +166,6 @@ export default function AboutMe() {
           </div>
         </section>
 
-        {/* Experienced With */}
         <section className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
             <h2 className="text-3xl font-semibold">
