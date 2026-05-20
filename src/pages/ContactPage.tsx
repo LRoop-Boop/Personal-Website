@@ -13,7 +13,7 @@ import { Textarea } from "../../@/components/ui/textarea";
 
 export default function ContactForm() {
   return (
-    <div className = "pt-20 bg-slate-100">
+    <div className = "min-h-screen pt-20 bg-slate-100">
       <Card className="max-w-xl mx-auto">
         <CardHeader>
           <CardTitle className="text-2xl font-semibold text-slate-900">Contact Me</CardTitle>
@@ -52,7 +52,7 @@ export default function ContactForm() {
               <Textarea
                 id="message"
                 placeholder="Tell me about your project..."
-                className="min-h-[140px] text-slate-600"
+                className="min-h-36 text-slate-600"
               />
             </div>
 
