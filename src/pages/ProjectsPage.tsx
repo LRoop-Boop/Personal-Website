@@ -35,6 +35,20 @@ export default function Projects() {
 
           <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col gap-4">
             <h2 className="text-2xl font-semibold">
+              Grady's Garden
+            </h2>
+            <ul className="list-disc pl-5 space-y-2 text-slate-700 leading-relaxed">
+              <li>
+                Prototyped RAG-based access to curriculum content for AI-assisted nutrition education.
+              </li>
+              <li>
+                Collaborated with clients to identify practical AI applications within existing educational workflows. 
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col gap-4">
+            <h2 className="text-2xl font-semibold">
               Welcome to the Zoo
             </h2>
             <ul className="list-disc pl-5 space-y-2 text-slate-700 leading-relaxed">

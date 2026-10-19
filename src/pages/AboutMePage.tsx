@@ -1,3 +1,5 @@
+import headshot from "../assets/headshot.jpg";
+
 import {
   PythonOriginal,
   ReactOriginal,
@@ -133,15 +135,48 @@ export default function AboutMe() {
     <div className="min-h-screen bg-slate-100 text-slate-900 px-6 py-16">
       <div className="max-w-4xl mx-auto flex flex-col gap-16">
 
-        <div className="flex flex-col gap-2">
-        <h1 className="text-4xl font-bold">
-            About Me
-        </h1>
-
-        <p className="text-slate-600">
-            I am very cool and you should give me money.
-        </p>
+        
+      <section className="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-8 md:gap-12 items-center">
+        {/* Headshot */}
+        <div className="flex justify-center md:justify-start">
+          <img
+            src={headshot}
+            alt="Professional headshot"
+            className="w-48 h-48 md:w-52 md:h-52 rounded-full object-cover border-4 border-white shadow-md"
+          />
         </div>
+
+        {/* Professional Bio */}
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
+            <p className="text-sm font-semibold uppercase tracking-widest text-slate-500">
+              Computer Science · Software Development
+            </p>
+
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+              About Me
+            </h1>
+          </div>
+
+          <p className="text-slate-600 leading-relaxed">
+            I'm a computer science student pursuing a combined bachelor's
+            and master's degree, with hands-on experience developing
+            software through collaborative client projects. I enjoy
+            combining technical problem-solving with thoughtful UI/UX
+            design to build applications that are both functional and
+            intuitive.
+          </p>
+
+          <p className="text-slate-600 leading-relaxed">
+            My experience includes React, React Native, Python, and
+            Firebase, along with collaborating with teams to turn ideas
+            into working software. I'm especially interested in
+            opportunities that let me keep learning, tackle meaningful
+            challenges, and create useful products.
+          </p>
+        </div>
+      </section>
+
 
         <section className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
