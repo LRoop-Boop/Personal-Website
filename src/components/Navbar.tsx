@@ -44,7 +44,7 @@ export default function Navbar() {
           })}
 
           <a
-            href="/Lucy-Roop-Resume.pdf"
+            href="/Lucy_Roop_Resume.pdf"
             className="text-sm px-4 py-2 rounded-full border border-slate-300 hover:border-slate-900 hover:text-slate-900 transition"
           >
             Resume
@@ -82,7 +82,7 @@ export default function Navbar() {
             })}
 
             <a
-              href="/Lucy-Roop-Resume.pdf" target="_blank" rel="noopener noreferrer"
+              href="/Lucy_Roop_Resume.pdf" target="_blank" rel="noopener noreferrer"
               className="text-sm px-4 py-2 rounded-full border border-slate-300 w-fit"
             >
               Resume

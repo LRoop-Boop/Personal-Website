@@ -76,7 +76,7 @@ export default function HomePage() {
             </a>
 
             <a
-              href="/Lucy-Roop-Resume.pdf"
+              href="/Lucy_Roop_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
