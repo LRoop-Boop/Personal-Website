@@ -4,21 +4,19 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  // Keep your existing Firebase configuration here
-  apiKey: "AIzaSyBjm6I1SBHE1TK6dzr2BZ1x2Ky73LlETIk",
-  authDomain: "personal-website-e4675.firebaseapp.com",
-  projectId: "personal-website-e4675",
-  storageBucket: "personal-website-e4675.firebasestorage.app",
-  messagingSenderId: "999986286083",
-  appId: "1:999986286083:web:f9097c72ceb8d645f20836",
-  measurementId: "G-2VRDCSQ46S",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
 
-// Analytics is browser-only; initialize it when supported.
 if (typeof window !== "undefined") {
   getAnalytics(app);
 }
